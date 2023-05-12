@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <label>A L</label>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a onClick="ScrollTo('about')">About</a></li>
+                    <li><a onClick="ScrollTo('personal-info')">Skills</a></li>
+                    <li><a onClick="ScrollTo('services')">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="main" id="main">
+            <div class="main-label">
+                <h1 class="typing-animation">turning ideas into<br> real life <span>product</span><br> is my calling</h1>
+                <lottie-player class="svg" src="https://assets4.lottiefiles.com/packages/lf20_G2nVPR715x.json" background="transparent" speed="1" loop autoplay></lottie-player>
+            </div>
+            <div class="view-more">
+                <button class="cta" onClick="ScrollTo('about')">
+                    <span class="span">NEXT</span>
+                    <span class="second">
+                      <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                          <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                          <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                        </g>
+                      </svg>
+                    </span>
+                </button>
+            </div>
+        </section>
+        <hr>
+        <section class="about" id="about">
+            <div class="about-title">
+                <label>About</label>
+            </div>
+            <div class="about-container">
+                <div class="about-container-element">
+                    <img src="truck-fast.svg">
+                    <h2>Fast</h2>
+                    <p>Fast load times and lag free interaction, my highest priority.</p>
+                </div>
+                <div class="about-container-element">
+                    <img src="responsive.svg">
+                    <h2>Responsive</h2>
+                    <p>My layouts will work on any device, big or small.</p>
+                </div>
+                <div class="about-container-element">
+                    <img src="lightbulb.svg">
+                    <h2>Intuitive</h2>
+                    <p>Strong preference for easy to use, intuitive UX/UI.</p>
+                </div>
+                <div class="about-container-element">
+                    <img src="rocket.svg">
+                    <h2>Dynamic</h2>
+                    <p>Websites don't have to be static, I love making pages come to life.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="personal-info" id="personal-info">
+            <div class="personal-info-container">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="personal-info-image">
+                    <img src="321962928_544582071044480_8262664379361671464_n.jpg">
+                </div>
+                <div class="personal-info-content">
+                    <h2>Lahmar Abdessalem</h2>
+                    <p>
+                        Passionate web and desktop app developer/designer with a Bachelor's degree in Computer Science.
+                        4 years of experience creating user-friendly applications that exceed client expectations.
+                        Skilled in problem-solving and tackling complex projects.
+                        Committed to delivering high-quality results on time. Adaptable to new technologies and platforms,
+                        ensuring seamless user experiences. Strong collaborator with excellent communication skills.
+                        Constantly updating skills to stay current. Excited to contribute to new projects and work with like-minded individuals.
+                        Contact me at [insert contact information] to discuss your project needs.
+                    </p>
+                </div>
+            </div>
+            <div class="skills">
+                <table>
+                    <tr>
+                        <td>HTML</td>
+                        <td><div class="progress-bar-container"><div class="progress-bar-container-fill html"><span></span></div></div></td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td><div class="progress-bar-container"><div class="progress-bar-container-fill css"></div><span></span></div></td>
+                    </tr>
+                    <tr>
+                        <td>Javascript</td>
+                        <td><div class="progress-bar-container"><div class="progress-bar-container-fill js"></div><span></span></div></td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td><div class="progress-bar-container"><div class="progress-bar-container-fill python"></div></div></td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td><div class="progress-bar-container"><div class="progress-bar-container-fill sql"></div></div></td>
+                    </tr>
+                    <tr>
+                        <td>C/C++</td>
+                        <td><div class="progress-bar-container"><div class="progress-bar-container-fill c"></div></div></td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td><div class="progress-bar-container"><div class="progress-bar-container-fill java"></div></div></td>
+                    </tr>
+                    <tr>
+                        <td>Design</td>
+                        <td><div class="progress-bar-container"><div class="progress-bar-container-fill des"></div></div></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr>
+        <section class="services" id="services">
+            <div class="monitor-container">
+                <div class="stand">
+                    <div class="monitor">
+                        <img src="#" id="project-img">
+                        <div class="spinner" id="spinner">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-container">
+                <button onClick="SellectProject('dvibes')"><img src="1x-removebg-preview.png"></button>
+                <button onClick="SellectProject('covid-19')"><img src="logo_schools_ud642cf05_6d43fc3b-removebg-preview.png"></button>
+            </div>
+        </section>
+        <hr>
+        <section class="contact">
+        </section>
+    </body>
+</html>
